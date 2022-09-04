@@ -1,13 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:ital,wght@1,500&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./assets/back.png');
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.h1{
+  color: white;
+  font-weight: 800;
+  margin-top: 15px;
+  background-color: rgba(103, 106, 116, 0.473);
+  box-shadow: 0px 0px 5px 3px #000;
+  border-radius: 6px;
+  padding: 10px;
+  display: block;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.h1:hover{
+  color: #fff;
+}
+.textarea{
+  background-color: #171717cf;
+  color: #fff;
+  box-shadow: 0px 0px 5px 6px #000;
+  border-radius: 6px;
+}
+.textarea:hover{
+  color: #fff;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  align-items: left;
+  justify-content: flex-end;
+}
+@media screen {
+  
+}
+
+button:focus,
+button:hover {
+  background-color: #0077ff;
+  color: #e0efff;
+}
+
+.status{
+  font-size: 25px;
+  font-weight: 500;
+  color: green;
+}
+
+.id{
+  font-size: 10px;
+}
+.output{
+  font-size: 25px;
+
+}
+.right{
+  background-color: rgba(216, 205, 205, 0.903);
+  width: 200px;
+  margin-right: 60px;
+  border-radius: 6px;
+}
+
+.dropdown {
+  position: relative; 
+  width: 200px;
+  padding: 10px;
+  margin: 0 auto;
+  background: #9bc7de;
+  color: black;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
